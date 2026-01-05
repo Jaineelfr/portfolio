@@ -1,0 +1,7 @@
+C:\Users\jaineel\source\repos\nba\nba\bin\Debug\nba.exe.config
+C:\Users\jaineel\source\repos\nba\nba\bin\Debug\nba.exe
+C:\Users\jaineel\source\repos\nba\nba\bin\Debug\nba.pdb
+C:\Users\jaineel\source\repos\nba\nba\obj\Debug\nba.csproj.AssemblyReference.cache
+C:\Users\jaineel\source\repos\nba\nba\obj\Debug\nba.csproj.CoreCompileInputs.cache
+C:\Users\jaineel\source\repos\nba\nba\obj\Debug\nba.exe
+C:\Users\jaineel\source\repos\nba\nba\obj\Debug\nba.pdb
