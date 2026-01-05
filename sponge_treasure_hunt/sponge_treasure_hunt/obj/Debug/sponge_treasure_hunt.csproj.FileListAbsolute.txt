@@ -1,0 +1,11 @@
+C:\Users\jaineel\source\repos\sponge_treasure_hunt\sponge_treasure_hunt\bin\Debug\sponge_treasure_hunt.exe.config
+C:\Users\jaineel\source\repos\sponge_treasure_hunt\sponge_treasure_hunt\bin\Debug\sponge_treasure_hunt.exe
+C:\Users\jaineel\source\repos\sponge_treasure_hunt\sponge_treasure_hunt\bin\Debug\sponge_treasure_hunt.pdb
+C:\Users\jaineel\source\repos\sponge_treasure_hunt\sponge_treasure_hunt\obj\Debug\sponge_treasure_hunt.csproj.AssemblyReference.cache
+C:\Users\jaineel\source\repos\sponge_treasure_hunt\sponge_treasure_hunt\obj\Debug\sponge_treasure_hunt.Form1.resources
+C:\Users\jaineel\source\repos\sponge_treasure_hunt\sponge_treasure_hunt\obj\Debug\sponge_treasure_hunt.Properties.Resources.resources
+C:\Users\jaineel\source\repos\sponge_treasure_hunt\sponge_treasure_hunt\obj\Debug\sponge_treasure_hunt.csproj.GenerateResource.cache
+C:\Users\jaineel\source\repos\sponge_treasure_hunt\sponge_treasure_hunt\obj\Debug\sponge_treasure_hunt.csproj.CoreCompileInputs.cache
+C:\Users\jaineel\source\repos\sponge_treasure_hunt\sponge_treasure_hunt\obj\Debug\sponge_treasure_hunt.exe
+C:\Users\jaineel\source\repos\sponge_treasure_hunt\sponge_treasure_hunt\obj\Debug\sponge_treasure_hunt.pdb
+C:\Users\jaineel\source\repos\sponge_treasure_hunt\sponge_treasure_hunt\obj\Debug\sponge_treasure_hunt.Form2.resources
