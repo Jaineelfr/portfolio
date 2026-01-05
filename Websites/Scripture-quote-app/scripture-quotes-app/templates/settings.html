@@ -1,0 +1,23 @@
+{% extends 'layout.html' %}
+{% block content %}
+<h1>{{ _('settings_title') }}</h1>
+<form method="post" class="form">
+  <label>{{ _('phone_number') }}
+    <input type="text" name="phone_number" value="{{ user.phone_number or '' }}" placeholder="e.g., +1 555 123 4567">
+  </label>
+  <label>{{ _('language') }}
+    <select name="language">
+      {% set languages = ['english','mandarin','hindi','spanish','french','arabic','bengali','portuguese','russian','urdu'] %}
+      {% for lang in languages %}
+        <option value="{{ lang }}" {% if settings.language == lang %}selected{% endif %}>{{ lang|capitalize }}</option>
+      {% endfor %}
+    </select>
+  </label>
+  <label>
+    <input type="checkbox" name="two_factor_enabled" {% if settings.two_factor_enabled %}checked{% endif %}>
+    {{ _('two_factor_label') }}
+  </label>
+  <button type="submit">{{ _('save_settings') }}</button>
+</form>
+{% endblock %}
+

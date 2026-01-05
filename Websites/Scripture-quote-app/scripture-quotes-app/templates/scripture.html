@@ -1,0 +1,47 @@
+{% extends 'layout.html' %}
+{% block content %}
+<h1>{{ religion|capitalize }} {{ _('scripture_title') }}</h1>
+<div class="scripture-card">
+  <div class="pager">
+    <a class="btn{% if not has_prev %} disabled{% endif %}" href="{{ url_for('scripture', religion=religion, page=prev_page, page_size=page_size) }}" {% if not has_prev %}aria-disabled="true"{% endif %}>‹ Prev</a>
+    <span class="muted">Page {{ page }} / {{ total_pages }}</span>
+    <a class="btn{% if not has_next %} disabled{% endif %}" href="{{ url_for('scripture', religion=religion, page=next_page, page_size=page_size) }}" {% if not has_next %}aria-disabled="true"{% endif %}>Next ›</a>
+  </div>
+  <pre id="scriptureText" class="scripture-text">{{ scripture_html|safe }}</pre>
+  <div class="select-actions">
+    <form id="saveSelectionForm" method="post" action="{{ url_for('save_quote') }}">
+      <input type="hidden" name="keyword" value="reading">
+      <input type="hidden" name="quote" id="selectedQuote" value="">
+      <input type="hidden" name="source" value="{{ religion|capitalize }} (p. {{ page }})">
+      <input type="hidden" name="religion" value="{{ religion }}">
+      <button type="submit" id="saveBtn" disabled>{{ _('save') }}</button>
+    </form>
+    <span class="muted">{{ _('saved_highlighted') }}</span>
+  </div>
+  <div class="pager">
+    <a class="btn{% if not has_prev %} disabled{% endif %}" href="{{ url_for('scripture', religion=religion, page=prev_page, page_size=page_size) }}" {% if not has_prev %}aria-disabled="true"{% endif %}>‹ Prev</a>
+    <span class="muted">Page {{ page }} / {{ total_pages }}</span>
+    <a class="btn{% if not has_next %} disabled{% endif %}" href="{{ url_for('scripture', religion=religion, page=next_page, page_size=page_size) }}" {% if not has_next %}aria-disabled="true"{% endif %}>Next ›</a>
+  </div>
+  <p><a href="{{ url_for('dashboard') }}">{{ _('back_to_dashboard') }}</a></p>
+</div>
+
+<script>
+  (function(){
+    const textEl = document.getElementById('scriptureText');
+    const saveBtn = document.getElementById('saveBtn');
+    const selectedQuote = document.getElementById('selectedQuote');
+    function updateSelection(){
+      const sel = window.getSelection ? window.getSelection() : document.selection;
+      let str = '';
+      if (sel && sel.toString) { str = sel.toString(); }
+      selectedQuote.value = str.trim();
+      saveBtn.disabled = selectedQuote.value.length < 3;
+    }
+    document.addEventListener('selectionchange', function(){
+      updateSelection();
+    });
+  })();
+</script>
+{% endblock %}
+

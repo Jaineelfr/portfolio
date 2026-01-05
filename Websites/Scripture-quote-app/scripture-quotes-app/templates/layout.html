@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ _('app_title') }}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  </head>
+  <body>
+    <nav class="nav">
+      <div class="brand"><a href="{{ url_for('dashboard') }}">{{ _('app_title') }}</a></div>
+      <div class="links">
+        {% if current_user.is_authenticated %}
+          <a href="{{ url_for('dashboard') }}">{{ _('nav_dashboard') }}</a>
+          <a href="{{ url_for('saved') }}">{{ _('nav_saved') }}</a>
+          <a href="{{ url_for('settings') }}">{{ _('nav_settings') }}</a>
+          <a href="{{ url_for('logout') }}">{{ _('nav_logout') }}</a>
+        {% else %}
+          <a href="{{ url_for('login') }}">{{ _('nav_login') }}</a>
+          <a href="{{ url_for('register') }}">{{ _('nav_register') }}</a>
+        {% endif %}
+      </div>
+    </nav>
+
+    <main class="container">
+      {% with messages = get_flashed_messages(with_categories=true) %}
+        {% if messages %}
+          <div class="flashes">
+            {% for category, message in messages %}
+              <div class="flash {{ category }}">{{ message }}</div>
+            {% endfor %}
+          </div>
+        {% endif %}
+      {% endwith %}
+
+      {% block content %}{% endblock %}
+    </main>
+  </body>
+</html>

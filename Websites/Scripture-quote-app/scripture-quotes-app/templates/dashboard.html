@@ -1,0 +1,46 @@
+{% extends 'layout.html' %}
+{% block content %}
+<h1>{{ _('dashboard_welcome') }}, {{ current_user.name }}!</h1>
+<p>{{ _('selected_religion') }}: <strong>{{ selected_religion|capitalize }}</strong></p>
+
+<form method="post" class="form inline">
+  <label>Scripture
+    <select name="religion">
+      {% for key, label in scripture_options %}
+        <option value="{{ key }}" {% if selected_religion==key %}selected{% endif %}>{{ label }}</option>
+      {% endfor %}
+    </select>
+  </label>
+  <label>{{ _('select_topic') }}
+    <select name="keyword">
+      {% for k in keywords %}
+        <option value="{{ k }}" {% if selected_keyword==k %}selected{% endif %}>{{ k|capitalize }}</option>
+      {% endfor %}
+    </select>
+  </label>
+  <button type="submit">{{ _('get_quotes') }}</button>
+</form>
+
+{% if selected_keyword %}
+  <h2>{{ _('results_for') }} "{{ selected_keyword }}"</h2>
+  {% if quotes %}
+    <ul class="quotes">
+      {% for q in quotes %}
+        <li>
+          <blockquote>“{{ q.text }}”</blockquote>
+          <div class="source">{{ q.source }}</div>
+          <form method="post" action="{{ url_for('save_quote') }}">
+            <input type="hidden" name="keyword" value="{{ selected_keyword }}">
+            <input type="hidden" name="religion" value="{{ selected_religion }}">
+            <input type="hidden" name="quote" value="{{ q.text }}">
+            <input type="hidden" name="source" value="{{ q.source }}">
+            <button type="submit">{{ _('save') }}</button>
+          </form>
+        </li>
+      {% endfor %}
+    </ul>
+  {% else %}
+    <p>No quotes found. Try another keyword.</p>
+  {% endif %}
+{% endif %}
+{% endblock %}

@@ -1,0 +1,10 @@
+{% extends 'layout.html' %}
+{% block content %}
+<h1>{{ _('two_factor_title') }}</h1>
+<p>{{ _('enter_code') }}</p>
+<form method="post" class="form">
+  <label>Code<input type="text" name="code" inputmode="numeric" maxlength="6" placeholder="123456" required></label>
+  <button type="submit">{{ _('verify') }}</button>
+</form>
+{% endblock %}
+

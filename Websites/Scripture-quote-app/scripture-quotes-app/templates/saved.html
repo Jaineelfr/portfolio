@@ -1,0 +1,20 @@
+{% extends 'layout.html' %}
+{% block content %}
+<h1>{{ _('saved_quotes_title') }}</h1>
+{% if quotes %}
+  <ul class="quotes">
+    {% for item in quotes %}
+      <li>
+        <blockquote>“{{ item.quote }}”</blockquote>
+        <div class="meta">{{ item.religion|capitalize }} • {{ item.keyword|capitalize }} • {{ item.source }}</div>
+        <form method="post" action="{{ url_for('delete_quote') }}" style="margin-top:8px">
+          <input type="hidden" name="id" value="{{ item.id }}">
+          <button type="submit">Delete</button>
+        </form>
+      </li>
+    {% endfor %}
+  </ul>
+{% else %}
+  <p>{{ _('no_saved_quotes') }}</p>
+{% endif %}
+{% endblock %}
