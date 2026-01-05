@@ -1,7 +1,0 @@
-C:\Users\jaineel\source\repos\war dice\war dice\obj\Debug\war dice.csproj.AssemblyReference.cache
-C:\Users\jaineel\source\repos\war dice\war dice\obj\Debug\war dice.csproj.CoreCompileInputs.cache
-C:\Users\jaineel\source\repos\war dice\war dice\bin\Debug\war dice.exe.config
-C:\Users\jaineel\source\repos\war dice\war dice\bin\Debug\war dice.exe
-C:\Users\jaineel\source\repos\war dice\war dice\bin\Debug\war dice.pdb
-C:\Users\jaineel\source\repos\war dice\war dice\obj\Debug\war dice.exe
-C:\Users\jaineel\source\repos\war dice\war dice\obj\Debug\war dice.pdb
