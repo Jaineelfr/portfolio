@@ -1,0 +1,10 @@
+C:\Users\jaineel\source\repos\Family_feud\Family_feud\bin\Debug\Family_feud.exe.config
+C:\Users\jaineel\source\repos\Family_feud\Family_feud\bin\Debug\Family_feud.exe
+C:\Users\jaineel\source\repos\Family_feud\Family_feud\bin\Debug\Family_feud.pdb
+C:\Users\jaineel\source\repos\Family_feud\Family_feud\obj\Debug\Family_feud.csproj.AssemblyReference.cache
+C:\Users\jaineel\source\repos\Family_feud\Family_feud\obj\Debug\Family_feud.Form1.resources
+C:\Users\jaineel\source\repos\Family_feud\Family_feud\obj\Debug\Family_feud.Properties.Resources.resources
+C:\Users\jaineel\source\repos\Family_feud\Family_feud\obj\Debug\Family_feud.csproj.GenerateResource.cache
+C:\Users\jaineel\source\repos\Family_feud\Family_feud\obj\Debug\Family_feud.csproj.CoreCompileInputs.cache
+C:\Users\jaineel\source\repos\Family_feud\Family_feud\obj\Debug\Family_feud.exe
+C:\Users\jaineel\source\repos\Family_feud\Family_feud\obj\Debug\Family_feud.pdb
