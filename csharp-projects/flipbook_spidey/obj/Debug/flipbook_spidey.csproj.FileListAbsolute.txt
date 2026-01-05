@@ -1,0 +1,7 @@
+C:\Users\jaineel\source\repos\flipbook_spidey\bin\Debug\flipbook_spidey.exe.config
+C:\Users\jaineel\source\repos\flipbook_spidey\bin\Debug\flipbook_spidey.exe
+C:\Users\jaineel\source\repos\flipbook_spidey\bin\Debug\flipbook_spidey.pdb
+C:\Users\jaineel\source\repos\flipbook_spidey\obj\Debug\flipbook_spidey.csproj.AssemblyReference.cache
+C:\Users\jaineel\source\repos\flipbook_spidey\obj\Debug\flipbook_spidey.csproj.CoreCompileInputs.cache
+C:\Users\jaineel\source\repos\flipbook_spidey\obj\Debug\flipbook_spidey.exe
+C:\Users\jaineel\source\repos\flipbook_spidey\obj\Debug\flipbook_spidey.pdb
