@@ -1,0 +1,10 @@
+C:\Users\jaineel\source\repos\deal or no deal\deal or no deal\bin\Debug\deal or no deal.exe.config
+C:\Users\jaineel\source\repos\deal or no deal\deal or no deal\bin\Debug\deal or no deal.exe
+C:\Users\jaineel\source\repos\deal or no deal\deal or no deal\bin\Debug\deal or no deal.pdb
+C:\Users\jaineel\source\repos\deal or no deal\deal or no deal\obj\Debug\deal or no deal.csproj.AssemblyReference.cache
+C:\Users\jaineel\source\repos\deal or no deal\deal or no deal\obj\Debug\deal_or_no_deal.Form1.resources
+C:\Users\jaineel\source\repos\deal or no deal\deal or no deal\obj\Debug\deal_or_no_deal.Properties.Resources.resources
+C:\Users\jaineel\source\repos\deal or no deal\deal or no deal\obj\Debug\deal or no deal.csproj.GenerateResource.cache
+C:\Users\jaineel\source\repos\deal or no deal\deal or no deal\obj\Debug\deal or no deal.csproj.CoreCompileInputs.cache
+C:\Users\jaineel\source\repos\deal or no deal\deal or no deal\obj\Debug\deal or no deal.exe
+C:\Users\jaineel\source\repos\deal or no deal\deal or no deal\obj\Debug\deal or no deal.pdb
