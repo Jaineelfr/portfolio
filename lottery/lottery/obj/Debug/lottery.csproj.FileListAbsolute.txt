@@ -1,0 +1,10 @@
+C:\Users\jaineel\source\repos\lottery\lottery\bin\Debug\lottery.exe.config
+C:\Users\jaineel\source\repos\lottery\lottery\bin\Debug\lottery.exe
+C:\Users\jaineel\source\repos\lottery\lottery\bin\Debug\lottery.pdb
+C:\Users\jaineel\source\repos\lottery\lottery\obj\Debug\lottery.csproj.AssemblyReference.cache
+C:\Users\jaineel\source\repos\lottery\lottery\obj\Debug\lottery.Form1.resources
+C:\Users\jaineel\source\repos\lottery\lottery\obj\Debug\lottery.Properties.Resources.resources
+C:\Users\jaineel\source\repos\lottery\lottery\obj\Debug\lottery.csproj.GenerateResource.cache
+C:\Users\jaineel\source\repos\lottery\lottery\obj\Debug\lottery.csproj.CoreCompileInputs.cache
+C:\Users\jaineel\source\repos\lottery\lottery\obj\Debug\lottery.exe
+C:\Users\jaineel\source\repos\lottery\lottery\obj\Debug\lottery.pdb
