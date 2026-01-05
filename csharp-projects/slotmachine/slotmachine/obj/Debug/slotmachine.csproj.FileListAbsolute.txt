@@ -1,0 +1,10 @@
+C:\Users\jaineel\source\repos\slotmachine\slotmachine\bin\Debug\slotmachine.exe.config
+C:\Users\jaineel\source\repos\slotmachine\slotmachine\bin\Debug\slotmachine.exe
+C:\Users\jaineel\source\repos\slotmachine\slotmachine\bin\Debug\slotmachine.pdb
+C:\Users\jaineel\source\repos\slotmachine\slotmachine\obj\Debug\slotmachine.csproj.AssemblyReference.cache
+C:\Users\jaineel\source\repos\slotmachine\slotmachine\obj\Debug\slotmachine.Form1.resources
+C:\Users\jaineel\source\repos\slotmachine\slotmachine\obj\Debug\slotmachine.Properties.Resources.resources
+C:\Users\jaineel\source\repos\slotmachine\slotmachine\obj\Debug\slotmachine.csproj.GenerateResource.cache
+C:\Users\jaineel\source\repos\slotmachine\slotmachine\obj\Debug\slotmachine.csproj.CoreCompileInputs.cache
+C:\Users\jaineel\source\repos\slotmachine\slotmachine\obj\Debug\slotmachine.exe
+C:\Users\jaineel\source\repos\slotmachine\slotmachine\obj\Debug\slotmachine.pdb
